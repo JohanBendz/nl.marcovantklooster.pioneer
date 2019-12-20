@@ -5,7 +5,7 @@
 		"nl": "Pioneer"
 	},
 	"version": "1.4.0",
-	"compatibility": ">=1.5.0",
+	"compatibility": ">=2.0.0",
 	"author": {
 		"name": "Marco van 't Klooster",
 		"email": "info@marcovantklooster.nl",
@@ -182,8 +182,8 @@
 			"nl": "Pioneer"
 		},
 		"images": {
-			"large": "drivers/pioneer/assets/images/large.jpg",
-			"small": "drivers/pioneer/assets/images/small.jpg"
+			"large": "{{driverAssetsPath}}/images/large.jpg",
+			"small": "{{driverAssetsPath}}/images/small.jpg"
 		},
 		"class": "amplifier",
 		"capabilities": ["onoff", "volume_set", "volume_mute", "volume_up", "volume_down", "pioneer_source"],
@@ -270,86 +270,7 @@
 				"value": ""
 			}]
 		}]
-	}, {
-		"id": "amplifier",
-		"name": {
-			"en": "Obsolete",
-			"nl": "Verouderd"
-		},
-		"images": {
-			"large": "drivers/amplifier/assets/images/large.jpg",
-			"small": "drivers/amplifier/assets/images/small.jpg"
-		},
-		"class": "amplifier",
-		"capabilities": ["onoff"],
-		"mobile": {
-			"components": [{
-				"id": "icon",
-				"options": {
-					"showTitle": true
-				},
-				"capabilities": ["onoff"]
-			}, {
-				"id": "toggle",
-				"capabilities": ["onoff"]
-			}]
-		},
-		"pair": [{
-			"id": "start"
-		}, {
-			"id": "list_devices",
-			"template": "list_devices",
-			"navigation": {
-				"next": "add_amplifier"
-			}
-		}, {
-			"id": "add_amplifier",
-			"template": "add_devices"
-		}],
-		"settings": [{
-			"type": "group",
-			"label": {
-				"en": "Amplifier settings",
-				"nl": "Versterker instellingen"
-			},
-			"children": [{
-				"id": "settingIPAddress",
-				"type": "text",
-				"label": {
-					"en": "IP address of your Pioneer",
-					"nl": "IP adres van de Pioneer"
-				},
-				"value": ""
-			}, {
-				"id": "telnetPort",
-				"type": "number",
-				"label": {
-					"en": "Telnet port of your Pioneer",
-					"nl": "Telnet poort van de Pioneer"
-				},
-				"value": 8102,
-				"attr": {
-					"min": 1,
-					"max": 65535
-				}
-			}]
-		}, {
-			"type": "group",
-			"label": {
-				"en": "Calibrate maximum volume",
-				"nl": "Kalibreer maximale volume"
-			},
-			"children": [{
-				"id": "volumeMultiplier",
-				"type": "text",
-				"label": {
-					"en": "WARNING! Turn OFF your music! When this field is empty your Homey will, on save, get the maximum volume of your Pioneer.",
-					"nl": "WAARSCHUWING! Zet de muziek UIT! Wanneer de gegevens hiernaast leeg zijn zal Homey, bij het opslaan, het maximale volume van uw Pioneer ophalen."
-				},
-				"value": ""
-			}]
-		}]
-	}],
+	},
 	"flow": {
 		"triggers": [{
 			"id": "source",
