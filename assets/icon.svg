@@ -1,26 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
-	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
-	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
-	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
-	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
-	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
-	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
-	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
-	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
-]>
-<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="82.461px" height="57px"
-	 viewBox="0 0 82.461 57" enable-background="new 0 0 82.461 57" xml:space="preserve">
-<metadata>
-	<sfw  xmlns="&ns_sfw;">
-		<slices></slices>
-		<sliceSourceBounds  height="54.56" width="82.461" bottomLeftOrigin="true" x="306" y="474.44"></sliceSourceBounds>
-	</sfw>
-</metadata>
-<path fill="#A90533" d="M64.563,20.432c-1.424,4.018-10.397,8.215-32.438,3.233l2.867,13.017
-	c22.041,4.006,35.105,0.711,42.567-7.123c5.527-5.806,6.61-13.317,2.069-19.063C74.825,4.411,64.185,0,50.748,0
-	C31.527,0,17.831,5.569,10.227,26.465L0,54.56h17.888l10.175-28.414c4.174-11.687,12.948-13.622,22.685-13.622
-	C60.958,12.524,65.887,16.729,64.563,20.432z"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xml:space="preserve"
+   viewBox="0 0 50.5 50.5"
+   y="0px"
+   x="0px"
+   id="Layer_1"
+   version="1.2"><metadata
+   id="metadata15"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs13" />
+
+
+
+
+<g
+   id="layer3" /><g
+   id="layer1" /><path
+   id="path4"
+   d="m 39.258283,23.706423 c -0.854935,2.41231 -6.242108,4.932088 -19.474991,1.941015 l 1.721277,7.815093 c 13.232884,2.405105 21.076194,0.426867 25.556198,-4.276478 3.318278,-3.485782 3.968485,-7.995205 1.242178,-11.444965 -2.883605,-3.653286 -9.271604,-6.301544 -17.338854,-6.301544 -11.539824,0 -19.762572,3.343493 -24.3278291,15.888946 L 0.49621793,44.19605 H 11.235741 l 6.108824,-17.05908 c 2.505969,-7.016592 7.773666,-8.178319 13.619526,-8.178319 6.129837,0 9.08909,2.52458 8.294192,4.747772 z"
+   style="fill:#000000;stroke-width:0.60037583;fill-opacity:1" /></svg>
