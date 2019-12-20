@@ -6,6 +6,9 @@
 	},
 	"version": "1.4.0",
 	"compatibility": ">=2.0.0",
+	"sdk": 2,
+	"brandColor": "#A80532",
+	"category": "appliances",
 	"author": {
 		"name": "Marco van 't Klooster",
 		"email": "info@marcovantklooster.nl",
@@ -36,7 +39,7 @@
             }
         }
 	},
-    "athomForumDiscussionId": 1314,
+        "athomForumDiscussionId": 1314,
 	"images": {
 		"large": "./assets/images/large.jpg",
 		"small": "./assets/images/small.jpg"
@@ -167,7 +170,7 @@
 			"setable": true
 		}
 	},
-	"category": "appliances",
+
 	"description": {
 		"en": "Pioneer VSX control app for Homey",
 		"nl": "Dit is een Pioneer VSX aansturing app voor Homey"
