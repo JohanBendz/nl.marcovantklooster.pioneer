@@ -9,43 +9,6 @@ This app lets you control a Pioneer VSX amplifier from within flows on a Homey d
 * Change the input source of your VSX amplifier in a card
 * Mute and unmute your VSX amplifier
 
-##Version 1.0.0
-
-* Added: Flow condition to check if your amplifier is on or off
-* Added: Switch to port 23 to support other devices
-* Improved: Mobile card
-* Removed: Unnecessary files so the app take less space on your Homey
-
-##Version 1.1.0
-
-* Added: Device selection to flow condition to check if your amplifier is on or off introduced in 1.0.x
-* Added: Flow action to set the volume to a specific level.
-* Added: Calibration function to detect the maximum level of the Pioneer so the level within the flow can be set.
-* Added: Settings to change the IP of the Pioneer and add option to add port nummer if the port number is different than the default 8102 or 23
-* Improved: Adding of devices
-
-##Version 1.2.0
-
-* Added: Flow action to mute and unmute your amplifier
-* Added: Flow condition to check if your amplifier is muted or unmuted
-
-##Version 1.3.0
-
-* Improved: Yes no text in flow condition
-* Improved: Uniformity in action flows by selecting first device witch was not the case by changing source.
-
-##Version 1.3.1
-
-* Fixed: API callback issues, after upgrading to Homey 0.10.x
-
-##Version 1.3.3
-
-* Added: Notification of incorrect device
-
-##Version 1.3.6
-
-* Fixed: Issue with GAME port
-
 ##Supported devices
 
 ###Confirmed
@@ -74,3 +37,37 @@ This app lets you control a Pioneer VSX amplifier from within flows on a Homey d
 * Pioneer VSX-S510
 
 Please let me know if your Pioneer is supported
+
+##Version 2.0.0
+* Homey v2/v3 compatibility
+
+##Version 1.3.6
+* Fixed: Issue with GAME port
+
+##Version 1.3.3
+* Added: Notification of incorrect device
+
+##Version 1.3.1
+* Fixed: API callback issues, after upgrading to Homey 0.10.x
+
+##Version 1.2.0
+* Added: Flow action to mute and unmute your amplifier
+* Added: Flow condition to check if your amplifier is muted or unmuted
+
+##Version 1.3.0
+
+* Improved: Yes no text in flow condition
+* Improved: Uniformity in action flows by selecting first device witch was not the case by changing source.
+
+##Version 1.1.0
+* Added: Device selection to flow condition to check if your amplifier is on or off introduced in 1.0.x
+* Added: Flow action to set the volume to a specific level.
+* Added: Calibration function to detect the maximum level of the Pioneer so the level within the flow can be set.
+* Added: Settings to change the IP of the Pioneer and add option to add port nummer if the port number is different than the default 8102 or 23
+* Improved: Adding of devices
+
+##Version 1.0.0
+* Added: Flow condition to check if your amplifier is on or off
+* Added: Switch to port 23 to support other devices
+* Improved: Mobile card
+* Removed: Unnecessary files so the app take less space on your Homey
