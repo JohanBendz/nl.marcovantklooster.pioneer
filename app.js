@@ -1,8 +1,12 @@
-"use strict";
+'use strict';
 
-module.exports.init = function(){
+const Homey = require('homey');
 
-    // run your code here
-    Homey.log("Pioneer app - init start");
-
+class PioneerApp extends Homey.App {
+	onInit() {
+		this.log(`${Homey.manifest.id} started.`);
+			});
+	}
 }
+
+module.exports = PioneerApp;
