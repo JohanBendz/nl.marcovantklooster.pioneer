@@ -1,3 +1,9 @@
+"use strict";
+
+const Homey = require('homey');
+
+class PioneerDriver extends Homey.Driver {
+	
 var net = require('net');
 // Temporarily store the device's IP address and name. For later use, it gets added to the device's settings
 var tempIP = '';
@@ -734,3 +740,7 @@ var initDevice = function(device_data) {
 			}
 		});
 	};
+
+}
+
+module.exports = PioneerDriver;
